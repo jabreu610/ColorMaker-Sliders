@@ -41,6 +41,9 @@
                                                 <include reference="ZRl-Yp-fQQ"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="changeColorControl" destination="vXZ-lx-hvc" eventType="valueChanged" id="YeQ-DE-Bkb"/>
+                                        </connections>
                                     </slider>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vB-ke-O2y">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -89,6 +92,9 @@
                                                 <include reference="nZb-I7-P3E"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="changeColorControl" destination="vXZ-lx-hvc" eventType="valueChanged" id="S8I-qG-wd2"/>
+                                        </connections>
                                     </slider>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R1t-2f-Nna">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -137,6 +143,9 @@
                                                 <include reference="lBy-j7-twd"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="changeColorControl" destination="vXZ-lx-hvc" eventType="valueChanged" id="ksD-wg-LL6"/>
+                                        </connections>
                                     </slider>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cE-VH-AZn">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -197,21 +206,21 @@
                                     <mask key="constraints">
                                         <exclude reference="gPK-T3-gEO"/>
                                         <exclude reference="sHF-UL-xI8"/>
+                                        <exclude reference="WFL-he-io8"/>
                                         <exclude reference="4v0-gO-2fm"/>
                                         <exclude reference="4xc-Za-aI1"/>
                                         <exclude reference="DSX-NW-C8c"/>
                                         <exclude reference="QZr-RI-AKz"/>
                                         <exclude reference="VCQ-HL-8EY"/>
                                         <exclude reference="XGc-W7-xs9"/>
+                                        <exclude reference="KaH-Tf-DZO"/>
+                                        <exclude reference="Lda-iI-u5s"/>
                                         <exclude reference="0NG-yc-kGe"/>
                                         <exclude reference="4qO-4s-ebf"/>
                                         <exclude reference="MlL-Go-7LG"/>
                                         <exclude reference="Xc0-5U-94G"/>
                                         <exclude reference="iX9-Dk-2Oe"/>
-                                        <exclude reference="WFL-he-io8"/>
                                         <exclude reference="9om-Xl-OJ8"/>
-                                        <exclude reference="KaH-Tf-DZO"/>
-                                        <exclude reference="Lda-iI-u5s"/>
                                         <exclude reference="IMU-mZ-PWO"/>
                                     </mask>
                                 </variation>
@@ -230,21 +239,21 @@
                                     <mask key="constraints">
                                         <include reference="gPK-T3-gEO"/>
                                         <include reference="sHF-UL-xI8"/>
+                                        <include reference="WFL-he-io8"/>
                                         <include reference="4v0-gO-2fm"/>
                                         <include reference="4xc-Za-aI1"/>
                                         <include reference="DSX-NW-C8c"/>
                                         <include reference="QZr-RI-AKz"/>
                                         <include reference="VCQ-HL-8EY"/>
                                         <include reference="XGc-W7-xs9"/>
+                                        <include reference="KaH-Tf-DZO"/>
+                                        <include reference="Lda-iI-u5s"/>
                                         <include reference="0NG-yc-kGe"/>
                                         <include reference="4qO-4s-ebf"/>
                                         <include reference="MlL-Go-7LG"/>
                                         <include reference="Xc0-5U-94G"/>
                                         <include reference="iX9-Dk-2Oe"/>
-                                        <include reference="WFL-he-io8"/>
                                         <include reference="9om-Xl-OJ8"/>
-                                        <include reference="KaH-Tf-DZO"/>
-                                        <include reference="Lda-iI-u5s"/>
                                         <include reference="IMU-mZ-PWO"/>
                                     </mask>
                                 </variation>
@@ -329,10 +338,10 @@
                                 <exclude reference="3wh-EE-t0t"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="1gt-Xv-SJ0"/>
-                                <exclude reference="U8j-j1-Ghl"/>
                                 <exclude reference="MJG-uB-0JQ"/>
                                 <exclude reference="zww-oN-efJ"/>
+                                <exclude reference="1gt-Xv-SJ0"/>
+                                <exclude reference="U8j-j1-Ghl"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -343,10 +352,10 @@
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
-                                <include reference="1gt-Xv-SJ0"/>
-                                <include reference="U8j-j1-Ghl"/>
                                 <include reference="MJG-uB-0JQ"/>
                                 <include reference="zww-oN-efJ"/>
+                                <include reference="1gt-Xv-SJ0"/>
+                                <include reference="U8j-j1-Ghl"/>
                             </mask>
                         </variation>
                     </view>

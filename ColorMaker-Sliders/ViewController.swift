@@ -18,8 +18,19 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        changeColorControl()
     }
 
-    
+    @IBAction func changeColorControl(){
+        let r: Float = redControl.value
+        let g: Float = greenControl.value
+        let b: Float = blueControl.value
+        
+        let cgr: CGFloat = CGFloat(r)
+        let cgg: CGFloat = CGFloat(g)
+        let cgb: CGFloat = CGFloat(b)
+        
+        colorView.backgroundColor = UIColor(red: cgr, green: cgg, blue: cgb, alpha: 1)
+    }
 }
 
