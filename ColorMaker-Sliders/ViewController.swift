@@ -22,9 +22,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func changeColorControl(){
-        let r: Float = redControl.value
-        let g: Float = greenControl.value
-        let b: Float = blueControl.value
+        let r = redControl.value
+        let g = greenControl.value
+        let b = blueControl.value
         
         let cgr: CGFloat = CGFloat(r)
         let cgg: CGFloat = CGFloat(g)
